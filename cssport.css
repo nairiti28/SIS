@@ -1,0 +1,95 @@
+.right-sidebar{
+    width: 70%;
+    height: 5%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: right;
+    border-style: hidden;
+    margin-left: 30.05%;
+    margin-right: -15%;
+    margin-top: 3%;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: right;
+    align-items: right;
+    z-index: 1;
+}
+.navlinks{
+    background-image: url(https://th.bing.com/th/id/R.c5ccb84314d687397424009eb97f8573?rik=Gj%2fg195xGXLAJw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f120000%2fvelka%2fvintage-polka-dots-background-1426941945fUh.jpg&ehk=zXutaWiLAZPqvwXeSSHxPhytPoC4uygz8543nN8I3M0%3d&risl=&pid=ImgRaw);
+    text-align: right;
+    padding: 10px 30px;
+    border-bottom-left-radius: 18-x;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.navlinks ul li a{
+    color: rgb(13, 131, 76);
+    text-decoration: none;
+}
+.navlinks li a:hover{
+    color: red;
+}
+/*oki*/
+.mar{
+    background-image: url(https://th.bing.com/th/id/R.d71c9f2d9b9a7955f5591416ddffeb69?rik=uEK0E0uENhYRMg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f0%2fe%2f584643.jpg&ehk=dh7o9X4qWwtYe4CKPKvwC2tYtDkvkayvm15tcyi0XNY%3d&risl=&pid=ImgRaw);
+    direction: left;
+    behavior: slide;
+    scroll-behavior: smooth;
+    margin-top: -1%;
+    margin-right:-0.35%;
+    margin-left: 29.75%;
+}
+#text{
+    font-family: tw cen mt;
+     color: deeppink;
+      font-size: 40px;
+}
+#text2{
+    color: teal;
+    font-size: 26px;
+    font-family: calibri;
+}
+#mar2{
+    behavior: slide;
+    direction: left;
+    scroll-behavior: smooth;
+}
+.bio{
+    background-image: url(https://static.wixstatic.com/media/4c2ecb_52c786e6a10741cb8c640d95c6bd2506~mv2_d_8000_8076_s_4_2.jpg/v1/fill/w_1902,h_1920,al_c,q_90,usm_0.66_1.00_0.01/4c2ecb_52c786e6a10741cb8c640d95c6bd2506~mv2_d_8000_8076_s_4_2.jpg);
+    margin-left: 29.75%;
+    margin-top: 0%;
+    margin-right: -0.45%;
+}
+.leftbar{
+    background-image: url(https://th.bing.com/th/id/OIP.Bxuin7qQ_A_cRZK8j2yomADREq?pid=ImgDet&rs=1);
+    box-align:left;
+    width: 30%;
+    height: 173%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px;
+    border-right-color: darkblue;            
+    text-align: center;
+    float:left;
+    margin-bottom: 0%;
+}
+.my-face{
+    background-image: url('pic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-top: 10%;
+    margin-left: 58.75%;
+    margin-bottom: 0%;
+    height: 256px;
+    width: 342px;
+    float: center;
+    clear: left;
+}

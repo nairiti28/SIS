@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: left;
+    z-index: 1;
+}
+.icons{
+    padding: 10px 30px;
+    border-bottom-left-radius: 18-x;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.icons ul li a{
+    text-decoration: none;
+}
+.icons li a:hover{
+    opacity: 0.5;
+}
+#word{
+    font-size: 26px;
+    font-family: calibri;
+    color: rgb(5, 80, 34);
+}
+.essay{
+    border-style: double;
+    border-color: darkmagenta;
+    margin-left: 50%;
+    margin-top: -18%;
+    align-content: left;
+}
+.rivals{
+    border-style: double;
+    border-color: rgb(8, 14, 95);
+    margin-right: 50.5%;
+    margin-bottom: -50%;
+    margin-top: -120%;
+    box-align: top;
+}
+.poem{
+    border-style: double;
+    border-color: darkviolet;
+    margin-top: 52%;
+    margin-right: 50.5%;
+}
