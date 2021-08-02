@@ -85,6 +85,8 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    border-style: groove;
+    border-color: darkgreen;
     margin-top: 10%;
     margin-left: 58.75%;
     margin-bottom: 0%;
